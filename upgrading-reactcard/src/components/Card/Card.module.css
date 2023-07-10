@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  width: 500px;
+  height: auto;
+  gap: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  fill: #919191;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  background: #1c7ef8;
+}
+
+.btn:hover{
+  background: #1c7ff884;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+
+/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
