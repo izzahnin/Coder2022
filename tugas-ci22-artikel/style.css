@@ -209,7 +209,24 @@ body {
   font-size: 18px;
 }
 
-.double img {
+.icon, .icon-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px
+}
+.icon > img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.icon-black > img {
+  width: 36px;
+  margin-bottom: 10px;
+}
+
+.double > img {
   width: 500px;
 }
 .img {
