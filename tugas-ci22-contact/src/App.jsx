@@ -21,7 +21,7 @@ function App() {
           </div>
           <div className="flex justify-center">
             {/* <Card/> */}
-            <ul className="flex flex-col gap-4">
+            <ul className="flex flex-col gap-4 mb-5">
             {contacts.map((contact) => {
               console.log("Contact File:", contact.file); // Add this line to inspect the value
               return (
